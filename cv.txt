@@ -1,0 +1,58 @@
+This is my cv.
+
+Rahul Gaba
+
+
+To enhance my knowledge and technical skills in a good learning environment, proving beneficial to the organization. Willing to work as 
+a key player in  challenging and creative environment.
+
+
+rahulgaba0007@gmail.com
+https://www.linkedin.com/in/rahul-gaba-1b50b5252
+Contact no-7015609919
+
+
+EXPERIENCE
+Webscript India, Karnal — Data Entry Operator
+Jan5, 2022 - sep 30,2022
+WORK
+Organized, sorted and checked input data against original documents.
+Maintained files, records and chronologies of entry activities.
+Communicated with supervisors and colleagues to process data quickly and resolve discrepancies.
+Compiled and verified accuracy and sorting information to prepare source 
+data for computer entry.
+EDUCATION
+Panipat Institute Of Engineering And Technology, Samalkha— B.tech computer science
+july 2017 - July 2021
+
+COLLEGE PROJECTS
+Attendence  Based Monitoring System — The system uses the camera to capture the images of the employee to do the face detection and recognition.
+
+Technology used- Python, opencv
+
+Complaint Grievance And Resolve System— complaint grievance resolve is advanced tool used for storing the complaints of any person. It contains the database for storing the list of complaints.
+
+Technology used- java, MySql
+
+
+
+
+SKILLS
+Microsoft Excel, google sheets
+C++, Html, Css, Javascript, Bootstrap, Computer Network
+CERTIFICATION
+
+C++ with data structures, CodingBlocks
+(Nov6,2022- May 20, 2023)
+Python bootcamp By jose Portilla, Udemy
+(June 10, 2020- Aug 5, 2020)
+Core java, IT Hub Technology, karnal
+(May 7, 2019- Sep 10, 2019)
+
+LANGUAGES
+English, Hindi
+HOBBIES
+
+Swimming
+Reading Books
+

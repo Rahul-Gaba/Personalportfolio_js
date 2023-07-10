@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:ital,wght@0,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slidebar{
+    position: absolute;
+    background-color: rgb(221, 201, 201);
+    /*width: 434px;
+    */font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    transition: transform 0.3 ease-in;
+}
+.slidebar nav{
+    padding: 72px;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /*background-color: blueviolet;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color: rgb(216, 208, 208);*/
+    height: 45vh;
+    width: 78vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(12, 162, 189);
+    background-color: rgb(226, 43, 156);
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: blue;
+    background-color: white;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 7px 12px;
+    margin: 10px 0;
+}
+.devPic img{
+    height: 45vh;
+    padding-right: 30px;
+    
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.contactform{
+    padding: 0 34px;
+    /*padding-top: 144px;*/
+    font-family: 'Roboto', sans-serif;
+    margin:50px 88px;
+
+}
+
+.contactform h1{
+    font-family: 'Roboto', sans-serif, monospace;
+    text-align: center;
+    /*padding: 12px 0;*/
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform{
+    margin: 0 20px;
+}
+.contactform form div input{
+   /* width: 26vw;*/
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px ;
+}
+#emailHelp{
+    font-size: 15px;
+    color: skyblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 34px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif, monospace;
+
+}
+.blogContainer{
+    margin: 30px  88px;
+}
+h1{
+    font-family: 'Roboto', sans-serif, monospace;
+    margin: 23px;
+}
+p{
+    font-family: 'Roboto', sans-serif, monospace;
+
+}
+.Intro{
+    margin: 10px 88px;
+}
+.Intro h2{
+    font-family: 'Roboto', sans-serif, monospace;
+    margin: 0 12px;
+
+}
+.Intro p{
+    font-family: 'Roboto', sans-serif, monospace;
+    margin: 12px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif, monospace;
+    font-weight: 800;
+
+}
+.skill{
+    width: 230px;
+    height: 6px;
+    background-color: blue;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: red;
+}
+.intermediate{
+    width: 125px;
+    background-color: aqua;
+}
+.beginner{
+    width: 75px;
+    background-color: brown;
+}
+.slidebarGo{
+    position: absolute;
+    transform: translate(-443px, 0px);
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Cross{
+    margin-left: 184px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1250px) {
+    /*{
+        background-color:pink;
+     }*/
+     .buttons{
+        font-size: 5px;
+     }
+     .devInfo{
+        font-size: 10px;
+     }
+     .devPic{
+        display: none;
+     }
+     .Intro, .blogContainer, .contactform{
+        margin: 50px  8px;
+     }
+     /*.slidebar{
+        transform: translate(-430px, 0px);
+        position: absolute;
+        -webkit-transform: translate(-430px, 0px);
+        -moz-transform: translate(-430px, 0px);
+        -ms-transform: translate(-430px, 0px);
+        -o-transform: translate(-430px, 0px);
+}*/
+}
